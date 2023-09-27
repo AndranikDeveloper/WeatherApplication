@@ -1,0 +1,9 @@
+.app {
+    margin: 0 auto;
+    margin-top: 1rem;
+    padding: 1.25rem 8rem 1.25rem 8rem;
+    background: linear-gradient(to bottom right, #10B981, #3B82F6);
+    height: fit-content;
+    box-shadow: 0 2px 4px rgba(156, 163, 175, 0.5);
+    width: 700px;
+}

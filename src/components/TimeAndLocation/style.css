@@ -1,0 +1,23 @@
+.time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.5rem 0 1.5rem 0;
+}
+
+.date {
+    color: white;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.75rem 0 0.75rem 0;
+}
+
+.place {
+    font-weight: 700;
+    font-size: 25px;
+    color: white;
+}

@@ -1,0 +1,30 @@
+.temprature {
+  display: flex;
+  flex-direction: row;
+  width: 25%;
+  align-items: center;
+  justify-content: center;
+}
+
+.temp-icons:hover {
+  transform: scale(1.25);
+}
+
+.temp-icons {
+  color: white;
+  font-size: 1.3rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+.stick {
+  color: white;
+}
+
+.temp-icons:hover,
+.temp-icons.active {
+  background-color: rgb(212, 198, 198);
+  border-radius: 7px;
+}
